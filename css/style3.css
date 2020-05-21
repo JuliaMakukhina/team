@@ -61,7 +61,7 @@ body{
 .container3 .card3:last-child .card3_header {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 .container3 .card3:last-child .card3_header:hover {
   border-bottom: 2px solid transparent;
@@ -145,7 +145,7 @@ img {
 }
 .card3__team_box {
   text-align: center;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 30%;
   color: #0000FF;
 }

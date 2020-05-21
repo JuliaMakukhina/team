@@ -108,7 +108,7 @@ background: #800000;
   border-color: #800000; 
 }
 .container2 .card2:last-child .card2_header.active {
-  border-bottom: 2px solid #800000;
+  border-bottom: 1px solid #800000;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
@@ -145,7 +145,7 @@ img {
 }
 .card2__team_box {
   text-align: center;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 30%;
   color: #800000;
 }
