@@ -25,14 +25,14 @@ body{
 .container {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 1em 1.7em;
+  padding: 20px;
 }
 .card {
   width: 100%;
   justify-content: space-evenly;
-  padding: 1.5em 0.3em;
+  padding: 5px;
   border-radius: 15px;
-  margin-bottom: 0.7rem;
+  margin-bottom: 10px;
   align-items: center;
   cursor: pointer;
   border: 1px solid;
@@ -41,29 +41,36 @@ body{
   color: #009933;
 }
 .barzini-color:hover {
-  box-shadow: 0 5px 10px #009933;
+  box-shadow: 0 3px 3px #009933;
   transition: box-shadow 0.3s;
 }
 .stracci-color {
   color: #000099;
 }
 .stracci-color:hover {
-  box-shadow: 0 5px 10px #000099;
+  box-shadow: 0 3px 3px #000099;
   transition: box-shadow 0.3s;
 }
 .tattaglia-color {
   color: #CC0000;
 }
 .tattaglia-color:hover {
-  box-shadow: 0 5px 10px #CC0000;
+  box-shadow: 0 3px 3px #CC0000;
   transition: box-shadow 0.3s;
 }
+.team-color {
+  color: #CC3399;
+}
+.team-color:hover {
+  box-shadow: 0 3px 3px #CC3399;
+  transition: box-shadow 0.3s;
+}
+
 .container .card .card_header {
   display: inline-flex;
   height: 180px;
   background: #fff;
   padding: 15px;
-  font-weight: 700;
   position: relative;
   cursor: pointer;
   align-items: center;
@@ -91,7 +98,6 @@ body{
   width: 20px;
   height: 2px;
   background: currentColor;
-  
 }
 .container .card .card_header:hover:before,
 .container .card .card_header:hover:after{
@@ -131,7 +137,7 @@ background: currentColor;
   height: auto;
 }
 img {
-  max-width: 100%;
+  width: 15%;
 }
 .card_body_complete h5{
   display: block;
@@ -143,18 +149,20 @@ img {
   text-align: center;
   color: black;
 }
-.card__link_box {
-  display: inline-block;
-  justify-content: space-around;
-}
 .card__text-box {
   display: block;
   color: black;
 }
 .card .card__team_box {
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  text-align: center;
   border: 1px solid;
-  border-radius: 30%;
+  border-radius: 50px;
 }
 .card__age-box {
   color: black;
@@ -231,4 +239,7 @@ img {
 }   
 .card_body_complete {
   margin-top: 7%;
+}
+.card_team_box {
+
 }
