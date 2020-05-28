@@ -41,31 +41,30 @@ body{
   color: #009933;
 }
 .barzini-color:hover {
-  box-shadow: 0 3px 3px #009933;
+  box-shadow: 0 2px 2px #009933;
   transition: box-shadow 0.3s;
 }
 .stracci-color {
   color: #000099;
 }
 .stracci-color:hover {
-  box-shadow: 0 3px 3px #000099;
+  box-shadow: 0 2px 2px #000099;
   transition: box-shadow 0.3s;
 }
 .tattaglia-color {
   color: #CC0000;
 }
 .tattaglia-color:hover {
-  box-shadow: 0 3px 3px #CC0000;
+  box-shadow: 0 2px 2px #CC0000;
   transition: box-shadow 0.3s;
 }
 .team-color {
   color: #CC3399;
 }
 .team-color:hover {
-  box-shadow: 0 3px 3px #CC3399;
+  box-shadow: 0 2px 2px #CC3399;
   transition: box-shadow 0.3s;
 }
-
 .container .card .card_header {
   display: inline-flex;
   height: 180px;
@@ -179,12 +178,11 @@ img {
 }
 .list li {
   position: relative;
-  border-left: 4px solid #009900;
+  border-left: 4px solid ;
   padding: 16px 20px 16px 28px;
   margin: 12px 0 12px 80px;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  color: black;
 }
 .list li:before {
     line-height: 32px;
@@ -195,7 +193,7 @@ img {
     text-align:center;
     font-size: 29px;
     font-weight: bold;
-    color: #009900;
+    
     counter-increment: li;
     content: counter(li);
     -webkit-transition-duration: 0.3s;
@@ -204,17 +202,14 @@ img {
     -moz-box-sizing: border-box;
     box-sizing: border-box;   
 }
-.list li:hover:before {
-  color: #009900;
-}
 .list li:after {
   position: absolute;
   top: 26px;
   left: -40px;
   width: 60px;
   height: 60px;
-  border: 8px solid #009900;
-  border-radius: 50%;
+  border: 8px solid;
+  border-radius: 50px;
   content: '';
   opacity: 0;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -236,10 +231,16 @@ img {
 } 
 .card_body_unfinished {
   margin-top: 7%;
+  
 }   
 .card_body_complete {
   margin-top: 7%;
 }
-.card_team_box {
-
+.card_body_unfinished h6 {
+  color: black;
 }
+.card_body_complete h6 {
+  color: black;
+}
+
+  
