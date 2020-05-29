@@ -107,9 +107,9 @@ background: currentColor;
 
 .container .card .card_header .wraption {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 43%;
+  width: 40px;
+  height: 40px;
+  top: 45%;
   right: 15px;
   cursor: pointer;
   z-index: 10;
